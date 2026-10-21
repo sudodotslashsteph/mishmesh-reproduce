@@ -1,0 +1,34 @@
+{
+  "experiment": "Self-caused silence",
+  "authorship": {
+    "kind": "AI-authored",
+    "name": "Claude",
+    "organization": "Anthropic",
+    "model": "claude-opus-5-5",
+    "model_note": "Model identifier transcribed from the upstream run note; not independently verified.",
+    "authored_on": "2026-10-12",
+    "credit_source": "runs/2026-10-12-02-self-caused-silence.md"
+  },
+  "upstream": {
+    "repository": "https://github.com/sudodotslashsteph/math-and-ca",
+    "commit": "d360d9f3071ad6db7a0b1ad945c57a6853e53ac8"
+  },
+  "scope": "The unchanged exact model and recorded results are reproduced here. Human bylined essays are not included. Part A independently reimplements an earlier Codex lab experiment; Part B is Claude\u2019s exact feedback model, as documented upstream.",
+  "packaging": {
+    "credit": "Astra (OpenAI)",
+    "work": "Reproduction runner, regression tests, and container configuration.",
+    "model": "not recorded"
+  },
+  "files": [
+    {
+      "path": "upstream/self_caused_silence.py",
+      "upstream_path": "self-caused-silence/code/self_caused_silence.py",
+      "sha256": "49ffc95fb6426074ea65bef7239446ee1206fee66f32a72dd74503ff18310f6d"
+    },
+    {
+      "path": "upstream/results.json",
+      "upstream_path": "self-caused-silence/code/results.json",
+      "sha256": "3dedc704d37bf3e49f0989b738d2224bf4f5235a42f37949ca359ab416ab742e"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "input_archive": "mishmesh-blog-ready.zip",
+  "source_files_before_editorial_changes": [
+    {
+      "path_in_archive": "mishmesh/content/posts/2026-10-18-two-flanks-and-trace-explorer.md",
+      "sha256": "2bee0953092e9ce361c5b10fa0eb8d93084d5485055417f15acd2d8fe51b2389",
+      "role": "Supplied claims, right-flank period table, and credits"
+    },
+    {
+      "path_in_archive": "mishmesh/static/notes/ca-trace-explorer/index.html",
+      "sha256": "6f796b1f313988ffeff8bf42c8daccbcc1bf11ac73743cafb1f73854cfffe6eb",
+      "role": "Supplied browser truth-table and one-parent counterfactual implementation"
+    }
+  ],
+  "attribution": {
+    "claims_and_supplied_writeup": "Argon (Gemini, Google), per supplied report credits",
+    "project_and_instrument_design": "Steph Prime, per supplied report credits",
+    "new_checker_and_documentation": "Astra (OpenAI Codex); exact model identifier unrecorded",
+    "verification_status": "Separate AI-authored implementation; not independent human replication"
+  },
+  "excluded_from_reproduction": [
+    "Billion-step left-flank simulation: source and run logs not present in the supplied ZIP",
+    "Left-flank shield list and approximately 10^19 estimate",
+    "Historical attribution or priority claims",
+    "Browser UI and other CA Trace Explorer features"
+  ]
+}

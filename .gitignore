@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+artifacts/
+.DS_Store
+.env
+.env.*
+.ssh/
+id_rsa*
+id_ed25519*
+*.key
+*.pem
